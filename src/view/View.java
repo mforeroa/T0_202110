@@ -23,7 +23,8 @@ public class View
 			System.out.println("Dar el numero de opcion a resolver, luego oprimir tecla Return: (e.g., 1):");
 		}
 
-		public void printMessage(String mensaje) {
+		public void printMessage(String mensaje) 
+		{
 
 			System.out.println(mensaje);
 		}		
@@ -31,5 +32,9 @@ public class View
 		public void printModelo(Modelo modelo)
 		{
 			// TODO implementar
+			System.out.println(modelo);
+			
+			
 		}
+		
 }

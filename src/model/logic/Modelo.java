@@ -67,6 +67,27 @@ public class Modelo {
 	{
 		return datos.eliminar(dato);
 	}
+	
+	/**
+	 * Retorna una cadena con el identificador y el nombre del nodo.
+	 * @return La representación del nodo en String: <identificador> : <nombre>.
+	 */
+	public String toString()
+	{
+		String cadena="";
+		for(int i=0;i<darTamano();i++)
+		{
+			if(i<darTamano()-1)
+			{
+				cadena+=datos.darElemento(i)+", ";
+			}
+			else
+			{
+				cadena+=datos.darElemento(i);
+			}
+		}
+		return cadena;
+	}
 
 
 }

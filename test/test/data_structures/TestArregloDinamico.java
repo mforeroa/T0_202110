@@ -24,14 +24,20 @@ public class TestArregloDinamico {
 	}
 
 	@Test
-	public void testArregloDinamico() {
+	public void testArregloDinamico() 
+	{
 		// TODO
+		assertTrue(arreglo!=null);
+		assertEquals(0, arreglo.darTamano());  // Modelo con 0 elementos presentes.
 	}
 
 	@Test
-	public void testDarElemento() {
+	public void testDarElemento() 
+	{
 		setUp2();
 		// TODO
+		assertEquals(""+20,arreglo.darElemento(20));
+		
 	}
 
 }
