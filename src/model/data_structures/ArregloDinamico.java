@@ -62,7 +62,7 @@ public class ArregloDinamico implements IArregloDinamico {
 		public String darElemento(int i) {
 			// TODO implementar
 			String elemento = elementos[i];
-			if (elemento==null)
+			if (elemento.equals(null))
 				return null;
 			else
 				return elementos[i];
